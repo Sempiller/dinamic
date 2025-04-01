@@ -4,6 +4,8 @@ if placeId == 5041144419 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/scprp.lua"))()
 elseif placeId == 286090429 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/arsenal.lua"))()
+elseif placeId == 662417684 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/luckyblock.lua"))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Dynamic",
