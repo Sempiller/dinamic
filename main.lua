@@ -1,26 +1,31 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Dinamic",
-        Text = "Use a executor that has more than 70 sUNC otherwise it wont work perfectly.",
+        Text = "We changed the name to Lithium.",
         Duration = 5
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Dinamic",
-        Text = "Xeno/Xeno based executors are not supported due to MoonSec.",
+        Title = "Lithium",
+        Text = "https://lithium.semp.cloud/",
         Duration = 5
 })
 
+print("____________________________________________________________________________________________________")
+print("")
+print("██      ██ ████████ ██   ██ ██ ██    ██ ███    ███ ")
+print("██      ██    ██    ██   ██ ██ ██    ██ ████  ████ ")
+print("██      ██    ██    ███████ ██ ██    ██ ██ ████ ██ ")
+print("██      ██    ██    ██   ██ ██ ██    ██ ██  ██  ██ ")
+print("███████ ██    ██    ██   ██ ██  ██████  ██      ██ ")
+                                                   
+                                                   
 local placeId = game.PlaceId
 
-if placeId == 5041144419 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/scprp.lua"))()
-elseif placeId == 286090429 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/arsenal.lua"))()
-elseif placeId == 662417684 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/luckyblock.lua"))()
+if placeId == 286090429 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/Lithium/refs/heads/main/Arsenal.lua"))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Dinamic",
+        Title = "Lithium",
         Text = "This game isn't supported yet.",
         Duration = 5
     })
